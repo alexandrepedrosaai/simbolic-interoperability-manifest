@@ -1,34 +1,50 @@
-# Gradle files
+# === ANDROID ===
 .gradle/
 build/
-
-# Local configuration file (sdk path, etc)
+*/build/
 local.properties
-
-# Log/OS Files
-*.log
-
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
-
-# IntelliJ
 *.iml
 .idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
-
-# Keystore files
-*.jks
+*.apk
+*.ap_
+*.dex
+*.class
+*.jar
 *.keystore
+*.jks
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+# === PYTHON & NOTEBOOKS ===
+_pycache_/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.venv/
+venv/
 
-# Android Profiling
-*.hprof
+# === LOGS & TEMP ===
+*.log
+*.tmp
+*.swp
+*.bak
+
+# === SYSTEM FILES ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# === IDEs & EDITORS ===
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# === DISTRIBUTION & ARCHIVES ===
+dist/
+*.egg-info/
+*.zip
+*.tar.gz
+*.pdf
+
+# === SYMBOLIC ARTIFACTS ===
+symbolic_interoperability/generated/
